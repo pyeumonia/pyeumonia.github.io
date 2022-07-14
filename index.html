@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Pyeumonia</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+        <meta name="description" content="Description">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+        <link rel="stylesheet" href="css/docsify-themeable.css">
+        <link rel="shortcut icon" href="img/favicon.png">
+    </head>
+    <body>
+        <div id="app">Liading...</div>
+        <!-- Docsify v4 -->
+        <script src="js/docsify.js"></script>
+        <!-- Docsify Themeable主题 -->
+        <script src="js/docsify-themeable.js"></script>
+        <script>
+            window.$docsify = {
+              disqus: 'shortname'
+            }
+          </script>
+        <script src="js/disqus.js"></script>
+        <!-- 侧边栏 -->
+        <script>
+            window.$docsify = {
+                // 侧边栏
+                loadSidebar: true,
+                // 字数统计
+                count: {
+                    countable: true,
+                    fontsize: '0.9em',
+                    color: 'rgb(90,90,90)',
+                    language: 'english'
+                },
+                //  全文搜索
+                search: {
+                    paths: [], // or 'auto'
+                    placeholder: "Type Here to search",
+                    noData: "No result",
+                    depth: 6,
+                },
+                // 文章导航
+                toc: {
+                    tocMaxLevel: 4,
+                    target: 'h2, h3, h4'
+                },
+                name: '',
+                repo: '',
+                // Docsify tabs主题
+                tabs: {
+                    persist    : true,      // default
+                    sync       : false,      // default
+                    theme      : 'material', // default
+                    tabComments: true,      // default
+                    tabHeadings: true       // default
+                  }
+            };
+        </script>
+        <!-- 复制到剪切板 -->
+        <script src="js/docsify-copy-code.js"></script>
+        <!-- 内容导航 -->
+        <script src="js/docsify-plugin-toc.js"></script>
+        <!-- 在GitHub上编辑 -->
+        <script src="js/docsify-edit-on-github.js"></script>
+        <!-- Docsify Tabs -->
+        <script src="js/docsify-tabs.js"></script>
+    </body>
+</html>
