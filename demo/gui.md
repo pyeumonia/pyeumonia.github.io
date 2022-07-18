@@ -4,7 +4,9 @@
 
 - How to install?
 
-Download the source code zip file and extract it, then run this command:
+Download the source code [zip file](https://js.delivr.net/gh/pyeumonia/pyeumonia.github.io@main/demo/source_code/gui/window.zip) and extract it
+
+After extract, you should run this command:
 
 ```bash
 pip install -r requirements.txt
